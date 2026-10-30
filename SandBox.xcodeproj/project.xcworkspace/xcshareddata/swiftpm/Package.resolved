@@ -1,5 +1,5 @@
 {
-  "originHash" : "85bcbb41428c011cbbf015dd94ce81375671a17dffef3beeb9296a24a36ec7a3",
+  "originHash" : "fe5e16f6e1bf65ba727c43ec265fae25d64276af3b0e33da53d943c99f21a3e8",
   "pins" : [
     {
       "identity" : "any",
@@ -17,6 +17,15 @@
       "state" : {
         "revision" : "21d3424542c99cc08d6b5e5079c43c885f74ebfb",
         "version" : "0.0.3"
+      }
+    },
+    {
+      "identity" : "location",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/the-wand/Location.git",
+      "state" : {
+        "revision" : "37d48fb20244f877106ebafd7ffc8bc0a7ffc5e7",
+        "version" : "5.0.0"
       }
     },
     {

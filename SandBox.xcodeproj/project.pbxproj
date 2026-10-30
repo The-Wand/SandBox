@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		619480833094B88B00A325A6 /* WandLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 619480823094B88B00A325A6 /* WandLocation */; };
 		61E29B733094B48900A14460 /* WandMotion in Frameworks */ = {isa = PBXBuildFile; productRef = 61E29B723094B48900A14460 /* WandMotion */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		6102C30D309487C800017434 /* SandBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SandBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6102C31A309487C900017434 /* SandBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6102C324309487C900017434 /* SandBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E29B813094B70300A14460 /* SandBox.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = SandBox.xctestplan; path = SandBoxTests/SandBox.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -57,6 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61E29B733094B48900A14460 /* WandMotion in Frameworks */,
+				619480833094B88B00A325A6 /* WandLocation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +83,11 @@
 		6102C304309487C800017434 = {
 			isa = PBXGroup;
 			children = (
+				61E29B813094B70300A14460 /* SandBox.xctestplan */,
 				6102C30F309487C800017434 /* SandBox */,
 				6102C31D309487C900017434 /* SandBoxTests */,
 				6102C327309487C900017434 /* SandBoxUITests */,
+				619480813094B88B00A325A6 /* Frameworks */,
 				6102C30E309487C800017434 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -95,6 +100,13 @@
 				6102C324309487C900017434 /* SandBoxUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		619480813094B88B00A325A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +130,7 @@
 			name = SandBox;
 			packageProductDependencies = (
 				61E29B723094B48900A14460 /* WandMotion */,
+				619480823094B88B00A325A6 /* WandLocation */,
 			);
 			productName = SandBox;
 			productReference = 6102C30D309487C800017434 /* SandBox.app */;
@@ -648,6 +661,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		619480823094B88B00A325A6 /* WandLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61E29B743094B4CF00A14460 /* XCRemoteSwiftPackageReference "Location" */;
+			productName = WandLocation;
+		};
 		61E29B723094B48900A14460 /* WandMotion */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 61E29B713094B48900A14460 /* XCRemoteSwiftPackageReference "Motion" */;

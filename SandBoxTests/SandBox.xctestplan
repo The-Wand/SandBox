@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "7D754063-4FDD-4EB7-A5E0-170E8493B818",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SandBox.xcodeproj",
+        "identifier" : "6102C319309487C900017434",
+        "name" : "SandBoxTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "target" : {
+        "containerPath" : "container:SandBox.xcodeproj",
+        "identifier" : "6102C323309487C900017434",
+        "name" : "SandBoxUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
