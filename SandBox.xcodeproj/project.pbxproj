@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		61E29B4C3094AF9E00A14460 /* Wand_CoreMotion in Frameworks */ = {isa = PBXBuildFile; productRef = 61E29B4B3094AF9E00A14460 /* Wand_CoreMotion */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6102C31B309487C900017434 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E29B4C3094AF9E00A14460 /* Wand_CoreMotion in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = SandBox;
 			packageProductDependencies = (
+				61E29B4B3094AF9E00A14460 /* Wand_CoreMotion */,
 			);
 			productName = SandBox;
 			productReference = 6102C30D309487C800017434 /* SandBox.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 6102C304309487C800017434;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				61E29B4A3094AF9E00A14460 /* XCRemoteSwiftPackageReference "Motion" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6102C30E309487C800017434 /* Products */;
 			projectDirPath = "";
@@ -615,6 +624,26 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		61E29B4A3094AF9E00A14460 /* XCRemoteSwiftPackageReference "Motion" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/The-Wand/Motion.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 9.9.9;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		61E29B4B3094AF9E00A14460 /* Wand_CoreMotion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 61E29B4A3094AF9E00A14460 /* XCRemoteSwiftPackageReference "Motion" */;
+			productName = Wand_CoreMotion;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6102C305309487C800017434 /* Project object */;
 }

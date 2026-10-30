@@ -1,0 +1,24 @@
+{
+  "originHash" : "85bcbb41428c011cbbf015dd94ce81375671a17dffef3beeb9296a24a36ec7a3",
+  "pins" : [
+    {
+      "identity" : "motion",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/The-Wand/Motion.git",
+      "state" : {
+        "revision" : "19ab05a92a3cbe0b3b43203e4ea8cc7101ab4e3e",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "wand",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/El-Machine/Wand.git",
+      "state" : {
+        "revision" : "4c63748fc58997fa83463216b1aea466c05f0ff9",
+        "version" : "0.1.9"
+      }
+    }
+  ],
+  "version" : 3
+}
