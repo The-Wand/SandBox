@@ -8,8 +8,10 @@
 import XCTest
 
 //Link Test
+import WandFoundation
 import WandLocation
 import WandMotion
+import WandNetwork
 
 final
 class SandBoxTests: XCTestCase {

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6127101E3095E1BA00CFED5C /* WandFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 6127101D3095E1BA00CFED5C /* WandFoundation */; };
+		6127119F3095FB5700CFED5C /* WandNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 6127119E3095FB5700CFED5C /* WandNetwork */; };
 		619480833094B88B00A325A6 /* WandLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 619480823094B88B00A325A6 /* WandLocation */; };
 		61E29B733094B48900A14460 /* WandMotion in Frameworks */ = {isa = PBXBuildFile; productRef = 61E29B723094B48900A14460 /* WandMotion */; };
 /* End PBXBuildFile section */
@@ -58,8 +60,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6127101E3095E1BA00CFED5C /* WandFoundation in Frameworks */,
 				61E29B733094B48900A14460 /* WandMotion in Frameworks */,
 				619480833094B88B00A325A6 /* WandLocation in Frameworks */,
+				6127119F3095FB5700CFED5C /* WandNetwork in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +135,8 @@
 			packageProductDependencies = (
 				61E29B723094B48900A14460 /* WandMotion */,
 				619480823094B88B00A325A6 /* WandLocation */,
+				6127101D3095E1BA00CFED5C /* WandFoundation */,
+				6127119E3095FB5700CFED5C /* WandNetwork */,
 			);
 			productName = SandBox;
 			productReference = 6102C30D309487C800017434 /* SandBox.app */;
@@ -217,6 +223,8 @@
 			packageReferences = (
 				61E29B713094B48900A14460 /* XCRemoteSwiftPackageReference "Motion" */,
 				61E29B743094B4CF00A14460 /* XCRemoteSwiftPackageReference "Location" */,
+				6127101C3095D8DF00CFED5C /* XCRemoteSwiftPackageReference "Foundation" */,
+				6127101F3095F3DE00CFED5C /* XCRemoteSwiftPackageReference "Network" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6102C30E309487C800017434 /* Products */;
@@ -640,6 +648,24 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		6127101C3095D8DF00CFED5C /* XCRemoteSwiftPackageReference "Foundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/The-Wand/Foundation.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 11.0.0;
+				minimumVersion = 1.0.0;
+			};
+		};
+		6127101F3095F3DE00CFED5C /* XCRemoteSwiftPackageReference "Network" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/The-Wand/Network.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 11.0.0;
+				minimumVersion = 1.0.0;
+			};
+		};
 		61E29B713094B48900A14460 /* XCRemoteSwiftPackageReference "Motion" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/The-Wand/Motion.git";
@@ -661,6 +687,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		6127101D3095E1BA00CFED5C /* WandFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6127101C3095D8DF00CFED5C /* XCRemoteSwiftPackageReference "Foundation" */;
+			productName = WandFoundation;
+		};
+		6127119E3095FB5700CFED5C /* WandNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6127101F3095F3DE00CFED5C /* XCRemoteSwiftPackageReference "Network" */;
+			productName = WandNetwork;
+		};
 		619480823094B88B00A325A6 /* WandLocation */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 61E29B743094B4CF00A14460 /* XCRemoteSwiftPackageReference "Location" */;

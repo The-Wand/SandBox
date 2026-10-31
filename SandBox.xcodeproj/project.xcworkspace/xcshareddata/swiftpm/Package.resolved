@@ -1,5 +1,5 @@
 {
-  "originHash" : "fe5e16f6e1bf65ba727c43ec265fae25d64276af3b0e33da53d943c99f21a3e8",
+  "originHash" : "4f8e28e88d07ee0a2d75c450b362f6cbb06af2eec36cdda17f58375bfd33ed83",
   "pins" : [
     {
       "identity" : "any",
@@ -20,6 +20,15 @@
       }
     },
     {
+      "identity" : "foundation",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/The-Wand/Foundation.git",
+      "state" : {
+        "revision" : "c51b0d6057a958973be7a18a4959adf799bfc7d9",
+        "version" : "5.0.0"
+      }
+    },
+    {
       "identity" : "location",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/the-wand/Location.git",
@@ -34,6 +43,15 @@
       "location" : "https://github.com/The-Wand/Motion.git",
       "state" : {
         "revision" : "e1a47aea50dba098b10cbe74a06ed4fbfb447fcd",
+        "version" : "5.0.0"
+      }
+    },
+    {
+      "identity" : "network",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/The-Wand/Network.git",
+      "state" : {
+        "revision" : "df30debfab78a3a513c7fc82170d654eed6a6e21",
         "version" : "5.0.0"
       }
     },
