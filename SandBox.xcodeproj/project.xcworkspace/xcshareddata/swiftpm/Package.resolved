@@ -1,5 +1,5 @@
 {
-  "originHash" : "4f8e28e88d07ee0a2d75c450b362f6cbb06af2eec36cdda17f58375bfd33ed83",
+  "originHash" : "c1af9794dadd381e875aaaa7b479978016d12f83d46afe06b6b2c2f5d7d8568f",
   "pins" : [
     {
       "identity" : "any",
@@ -52,6 +52,15 @@
       "location" : "https://github.com/The-Wand/Network.git",
       "state" : {
         "revision" : "df30debfab78a3a513c7fc82170d654eed6a6e21",
+        "version" : "5.0.0"
+      }
+    },
+    {
+      "identity" : "nfc",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/The-Wand/NFC.git",
+      "state" : {
+        "revision" : "f0bbadaed4e31dbe7f4f311a12edecf973f96b01",
         "version" : "5.0.0"
       }
     },

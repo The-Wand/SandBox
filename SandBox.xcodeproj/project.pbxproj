@@ -10,6 +10,7 @@
 		6127101E3095E1BA00CFED5C /* WandFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 6127101D3095E1BA00CFED5C /* WandFoundation */; };
 		6127119F3095FB5700CFED5C /* WandNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 6127119E3095FB5700CFED5C /* WandNetwork */; };
 		619480833094B88B00A325A6 /* WandLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 619480823094B88B00A325A6 /* WandLocation */; };
+		61CA73FD3096E07100190E8D /* WandNFC in Frameworks */ = {isa = PBXBuildFile; productRef = 61CA73FC3096E07100190E8D /* WandNFC */; };
 		61E29B733094B48900A14460 /* WandMotion in Frameworks */ = {isa = PBXBuildFile; productRef = 61E29B723094B48900A14460 /* WandMotion */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 				61E29B733094B48900A14460 /* WandMotion in Frameworks */,
 				619480833094B88B00A325A6 /* WandLocation in Frameworks */,
 				6127119F3095FB5700CFED5C /* WandNetwork in Frameworks */,
+				61CA73FD3096E07100190E8D /* WandNFC in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +139,7 @@
 				619480823094B88B00A325A6 /* WandLocation */,
 				6127101D3095E1BA00CFED5C /* WandFoundation */,
 				6127119E3095FB5700CFED5C /* WandNetwork */,
+				61CA73FC3096E07100190E8D /* WandNFC */,
 			);
 			productName = SandBox;
 			productReference = 6102C30D309487C800017434 /* SandBox.app */;
@@ -225,6 +228,7 @@
 				61E29B743094B4CF00A14460 /* XCRemoteSwiftPackageReference "Location" */,
 				6127101C3095D8DF00CFED5C /* XCRemoteSwiftPackageReference "Foundation" */,
 				6127101F3095F3DE00CFED5C /* XCRemoteSwiftPackageReference "Network" */,
+				612711B03096D68E00CFED5C /* XCRemoteSwiftPackageReference "NFC" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6102C30E309487C800017434 /* Products */;
@@ -666,6 +670,15 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		612711B03096D68E00CFED5C /* XCRemoteSwiftPackageReference "NFC" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/The-Wand/NFC.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 11.0.0;
+				minimumVersion = 1.0.0;
+			};
+		};
 		61E29B713094B48900A14460 /* XCRemoteSwiftPackageReference "Motion" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/The-Wand/Motion.git";
@@ -701,6 +714,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 61E29B743094B4CF00A14460 /* XCRemoteSwiftPackageReference "Location" */;
 			productName = WandLocation;
+		};
+		61CA73FC3096E07100190E8D /* WandNFC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 612711B03096D68E00CFED5C /* XCRemoteSwiftPackageReference "NFC" */;
+			productName = WandNFC;
 		};
 		61E29B723094B48900A14460 /* WandMotion */ = {
 			isa = XCSwiftPackageProductDependency;

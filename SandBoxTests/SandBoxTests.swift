@@ -12,6 +12,7 @@ import WandFoundation
 import WandLocation
 import WandMotion
 import WandNetwork
+import WandNFC
 
 final
 class SandBoxTests: XCTestCase {
