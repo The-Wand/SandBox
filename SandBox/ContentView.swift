@@ -12,6 +12,7 @@ import WandLocation
 import WandMotion
 import WandNetwork
 import WandNFC
+import WandURL
 
 struct ContentView: SwiftUI.View {
     
@@ -23,6 +24,8 @@ struct ContentView: SwiftUI.View {
         "Motion",
         "Network",
         "NFC",
+        "UI",
+        "URL",
     ]
     
     var body: some SwiftUI.View {
@@ -35,6 +38,7 @@ struct ContentView: SwiftUI.View {
             }
         }
         .scrollBounceBehavior(.always)
+        .padding()
         .onAppear {
             
             NWPath.Status.satisfied | NWPath.one | CLLocation.one | CMAltitudeData.one | .all { (wand: Core) in

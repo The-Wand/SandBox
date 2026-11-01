@@ -1,5 +1,5 @@
 {
-  "originHash" : "c1af9794dadd381e875aaaa7b479978016d12f83d46afe06b6b2c2f5d7d8568f",
+  "originHash" : "12ed0fe753877f52ed5a66981735847fd60d8885f7da28ad81034540914adcad",
   "pins" : [
     {
       "identity" : "any",
@@ -80,6 +80,24 @@
       "state" : {
         "revision" : "79e4b74a295b6eb74a8b585e3a39d29e70c1dbd1",
         "version" : "603.0.2"
+      }
+    },
+    {
+      "identity" : "ui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/The-Wand/UI.git",
+      "state" : {
+        "revision" : "67388f7e9b0af860b34888676cfed821ee33b97d",
+        "version" : "5.0.0"
+      }
+    },
+    {
+      "identity" : "url",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/The-Wand/URL.git",
+      "state" : {
+        "revision" : "ffb385f3793993f236b687ea69cbc896f54e1558",
+        "version" : "5.0.0"
       }
     },
     {
