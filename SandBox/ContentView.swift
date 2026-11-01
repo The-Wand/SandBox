@@ -13,6 +13,7 @@ import WandMotion
 import WandNetwork
 import WandNFC
 import WandURL
+import Wand_Weather
 
 struct ContentView: SwiftUI.View {
     

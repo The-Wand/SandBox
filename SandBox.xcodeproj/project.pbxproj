@@ -11,6 +11,7 @@
 		6127119F3095FB5700CFED5C /* WandNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 6127119E3095FB5700CFED5C /* WandNetwork */; };
 		6137E6BB3096E695002F79BF /* WandUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6137E6BA3096E695002F79BF /* WandUI */; };
 		6137E7FE3096ECEB002F79BF /* WandURL in Frameworks */ = {isa = PBXBuildFile; productRef = 6137E7FD3096ECEB002F79BF /* WandURL */; };
+		6137E8013096F1CD002F79BF /* Wand_Weather in Frameworks */ = {isa = PBXBuildFile; productRef = 6137E8003096F1CD002F79BF /* Wand_Weather */; };
 		619480833094B88B00A325A6 /* WandLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 619480823094B88B00A325A6 /* WandLocation */; };
 		61CA73FD3096E07100190E8D /* WandNFC in Frameworks */ = {isa = PBXBuildFile; productRef = 61CA73FC3096E07100190E8D /* WandNFC */; };
 		61E29B733094B48900A14460 /* WandMotion in Frameworks */ = {isa = PBXBuildFile; productRef = 61E29B723094B48900A14460 /* WandMotion */; };
@@ -68,6 +69,7 @@
 				61E29B733094B48900A14460 /* WandMotion in Frameworks */,
 				6137E7FE3096ECEB002F79BF /* WandURL in Frameworks */,
 				619480833094B88B00A325A6 /* WandLocation in Frameworks */,
+				6137E8013096F1CD002F79BF /* Wand_Weather in Frameworks */,
 				6127119F3095FB5700CFED5C /* WandNetwork in Frameworks */,
 				61CA73FD3096E07100190E8D /* WandNFC in Frameworks */,
 			);
@@ -146,6 +148,7 @@
 				61CA73FC3096E07100190E8D /* WandNFC */,
 				6137E6BA3096E695002F79BF /* WandUI */,
 				6137E7FD3096ECEB002F79BF /* WandURL */,
+				6137E8003096F1CD002F79BF /* Wand_Weather */,
 			);
 			productName = SandBox;
 			productReference = 6102C30D309487C800017434 /* SandBox.app */;
@@ -237,6 +240,7 @@
 				612711B03096D68E00CFED5C /* XCRemoteSwiftPackageReference "NFC" */,
 				61CA73FE3096E15200190E8D /* XCRemoteSwiftPackageReference "UI" */,
 				6137E6BC3096E87A002F79BF /* XCRemoteSwiftPackageReference "URL" */,
+				6137E7FF3096EDA2002F79BF /* XCRemoteSwiftPackageReference "Weather" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6102C30E309487C800017434 /* Products */;
@@ -696,6 +700,15 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		6137E7FF3096EDA2002F79BF /* XCRemoteSwiftPackageReference "Weather" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/The-Wand/Weather.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 11.0.0;
+				minimumVersion = 1.0.0;
+			};
+		};
 		61CA73FE3096E15200190E8D /* XCRemoteSwiftPackageReference "UI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/The-Wand/UI.git";
@@ -745,6 +758,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6137E6BC3096E87A002F79BF /* XCRemoteSwiftPackageReference "URL" */;
 			productName = WandURL;
+		};
+		6137E8003096F1CD002F79BF /* Wand_Weather */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6137E7FF3096EDA2002F79BF /* XCRemoteSwiftPackageReference "Weather" */;
+			productName = Wand_Weather;
 		};
 		619480823094B88B00A325A6 /* WandLocation */ = {
 			isa = XCSwiftPackageProductDependency;

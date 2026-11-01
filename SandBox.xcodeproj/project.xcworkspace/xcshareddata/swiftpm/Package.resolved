@@ -1,5 +1,5 @@
 {
-  "originHash" : "12ed0fe753877f52ed5a66981735847fd60d8885f7da28ad81034540914adcad",
+  "originHash" : "ebe8e6cdf6ffbb92fcd139d342630705bfc8823c3bbaf3cde8894d515facff8c",
   "pins" : [
     {
       "identity" : "any",
@@ -106,6 +106,15 @@
       "location" : "https://github.com/The-Wand/Wand.git",
       "state" : {
         "revision" : "60a82dd5f34b64c9dccc205a50c31531982f3bce",
+        "version" : "5.0.0"
+      }
+    },
+    {
+      "identity" : "weather",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/The-Wand/Weather.git",
+      "state" : {
+        "revision" : "40f78eb8d3a26c8b0bc26b1ca0558abf12b30d7a",
         "version" : "5.0.0"
       }
     }

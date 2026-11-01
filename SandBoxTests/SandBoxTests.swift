@@ -15,6 +15,7 @@ import WandNetwork
 import WandNFC
 import WandUI
 import WandURL
+import Wand_Weather
 
 final
 class SandBoxTests: XCTestCase {
