@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6102C30C309487C800017434"
-               BuildableName = "SandBox.app"
-               BlueprintName = "SandBox"
-               ReferencedContainer = "container:SandBox.xcodeproj">
+               BuildableName = "SandBox5.app"
+               BlueprintName = "SandBox5"
+               ReferencedContainer = "container:SandBox5.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -41,9 +41,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6102C319309487C900017434"
-               BuildableName = "SandBoxTests.xctest"
-               BlueprintName = "SandBoxTests"
-               ReferencedContainer = "container:SandBox.xcodeproj">
+               BuildableName = "SandBox5Tests.xctest"
+               BlueprintName = "SandBox5Tests"
+               ReferencedContainer = "container:SandBox5.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -52,9 +52,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6102C323309487C900017434"
-               BuildableName = "SandBoxUITests.xctest"
-               BlueprintName = "SandBoxUITests"
-               ReferencedContainer = "container:SandBox.xcodeproj">
+               BuildableName = "SandBox5UITests.xctest"
+               BlueprintName = "SandBox5UITests"
+               ReferencedContainer = "container:SandBox5.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6102C30C309487C800017434"
-            BuildableName = "SandBox.app"
-            BlueprintName = "SandBox"
-            ReferencedContainer = "container:SandBox.xcodeproj">
+            BuildableName = "SandBox5.app"
+            BlueprintName = "SandBox5"
+            ReferencedContainer = "container:SandBox5.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -92,9 +92,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6102C30C309487C800017434"
-            BuildableName = "SandBox.app"
-            BlueprintName = "SandBox"
-            ReferencedContainer = "container:SandBox.xcodeproj">
+            BuildableName = "SandBox5.app"
+            BlueprintName = "SandBox5"
+            ReferencedContainer = "container:SandBox5.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

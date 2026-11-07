@@ -35,9 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6102C30D309487C800017434 /* SandBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SandBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6102C31A309487C900017434 /* SandBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6102C324309487C900017434 /* SandBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6102C30D309487C800017434 /* SandBox5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SandBox5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6102C31A309487C900017434 /* SandBox5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandBox5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6102C324309487C900017434 /* SandBox5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandBox5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E29B813094B70300A14460 /* SandBox.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; name = SandBox.xctestplan; path = SandBoxTests/SandBox.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,9 +107,9 @@
 		6102C30E309487C800017434 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6102C30D309487C800017434 /* SandBox.app */,
-				6102C31A309487C900017434 /* SandBoxTests.xctest */,
-				6102C324309487C900017434 /* SandBoxUITests.xctest */,
+				6102C30D309487C800017434 /* SandBox5.app */,
+				6102C31A309487C900017434 /* SandBox5Tests.xctest */,
+				6102C324309487C900017434 /* SandBox5UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -124,9 +124,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6102C30C309487C800017434 /* SandBox */ = {
+		6102C30C309487C800017434 /* SandBox5 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6102C32E309487C900017434 /* Build configuration list for PBXNativeTarget "SandBox" */;
+			buildConfigurationList = 6102C32E309487C900017434 /* Build configuration list for PBXNativeTarget "SandBox5" */;
 			buildPhases = (
 				6102C309309487C800017434 /* Sources */,
 				6102C30A309487C800017434 /* Frameworks */,
@@ -139,7 +139,7 @@
 			fileSystemSynchronizedGroups = (
 				6102C30F309487C800017434 /* SandBox */,
 			);
-			name = SandBox;
+			name = SandBox5;
 			packageProductDependencies = (
 				61E29B723094B48900A14460 /* WandMotion */,
 				619480823094B88B00A325A6 /* WandLocation */,
@@ -151,12 +151,12 @@
 				6137E8003096F1CD002F79BF /* Wand_Weather */,
 			);
 			productName = SandBox;
-			productReference = 6102C30D309487C800017434 /* SandBox.app */;
+			productReference = 6102C30D309487C800017434 /* SandBox5.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6102C319309487C900017434 /* SandBoxTests */ = {
+		6102C319309487C900017434 /* SandBox5Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6102C331309487C900017434 /* Build configuration list for PBXNativeTarget "SandBoxTests" */;
+			buildConfigurationList = 6102C331309487C900017434 /* Build configuration list for PBXNativeTarget "SandBox5Tests" */;
 			buildPhases = (
 				6102C316309487C900017434 /* Sources */,
 				6102C317309487C900017434 /* Frameworks */,
@@ -170,16 +170,16 @@
 			fileSystemSynchronizedGroups = (
 				6102C31D309487C900017434 /* SandBoxTests */,
 			);
-			name = SandBoxTests;
+			name = SandBox5Tests;
 			packageProductDependencies = (
 			);
 			productName = SandBoxTests;
-			productReference = 6102C31A309487C900017434 /* SandBoxTests.xctest */;
+			productReference = 6102C31A309487C900017434 /* SandBox5Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6102C323309487C900017434 /* SandBoxUITests */ = {
+		6102C323309487C900017434 /* SandBox5UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6102C334309487C900017434 /* Build configuration list for PBXNativeTarget "SandBoxUITests" */;
+			buildConfigurationList = 6102C334309487C900017434 /* Build configuration list for PBXNativeTarget "SandBox5UITests" */;
 			buildPhases = (
 				6102C320309487C900017434 /* Sources */,
 				6102C321309487C900017434 /* Frameworks */,
@@ -193,11 +193,11 @@
 			fileSystemSynchronizedGroups = (
 				6102C327309487C900017434 /* SandBoxUITests */,
 			);
-			name = SandBoxUITests;
+			name = SandBox5UITests;
 			packageProductDependencies = (
 			);
 			productName = SandBoxUITests;
-			productReference = 6102C324309487C900017434 /* SandBoxUITests.xctest */;
+			productReference = 6102C324309487C900017434 /* SandBox5UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6102C308309487C800017434 /* Build configuration list for PBXProject "SandBox" */;
+			buildConfigurationList = 6102C308309487C800017434 /* Build configuration list for PBXProject "SandBox5" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -247,9 +247,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6102C30C309487C800017434 /* SandBox */,
-				6102C319309487C900017434 /* SandBoxTests */,
-				6102C323309487C900017434 /* SandBoxUITests */,
+				6102C30C309487C800017434 /* SandBox5 */,
+				6102C319309487C900017434 /* SandBox5Tests */,
+				6102C323309487C900017434 /* SandBox5UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -305,12 +305,12 @@
 /* Begin PBXTargetDependency section */
 		6102C31C309487C900017434 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6102C30C309487C800017434 /* SandBox */;
+			target = 6102C30C309487C800017434 /* SandBox5 */;
 			targetProxy = 6102C31B309487C900017434 /* PBXContainerItemProxy */;
 		};
 		6102C326309487C900017434 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6102C30C309487C800017434 /* SandBox */;
+			target = 6102C30C309487C800017434 /* SandBox5 */;
 			targetProxy = 6102C325309487C900017434 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -541,7 +541,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SandBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SandBox";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SandBox5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SandBox5";
 				XROS_DEPLOYMENT_TARGET = 26.5;
 			};
 			name = Debug;
@@ -567,7 +567,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SandBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SandBox";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SandBox5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SandBox5";
 				XROS_DEPLOYMENT_TARGET = 26.5;
 			};
 			name = Release;
@@ -625,7 +625,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6102C308309487C800017434 /* Build configuration list for PBXProject "SandBox" */ = {
+		6102C308309487C800017434 /* Build configuration list for PBXProject "SandBox5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6102C32C309487C900017434 /* Debug */,
@@ -634,7 +634,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6102C32E309487C900017434 /* Build configuration list for PBXNativeTarget "SandBox" */ = {
+		6102C32E309487C900017434 /* Build configuration list for PBXNativeTarget "SandBox5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6102C32F309487C900017434 /* Debug */,
@@ -643,7 +643,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6102C331309487C900017434 /* Build configuration list for PBXNativeTarget "SandBoxTests" */ = {
+		6102C331309487C900017434 /* Build configuration list for PBXNativeTarget "SandBox5Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6102C332309487C900017434 /* Debug */,
@@ -652,7 +652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6102C334309487C900017434 /* Build configuration list for PBXNativeTarget "SandBoxUITests" */ = {
+		6102C334309487C900017434 /* Build configuration list for PBXNativeTarget "SandBox5UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6102C335309487C900017434 /* Debug */,

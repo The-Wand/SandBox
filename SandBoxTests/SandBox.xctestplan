@@ -13,18 +13,18 @@
   },
   "testTargets" : [
     {
+      "enabled" : false,
       "target" : {
-        "containerPath" : "container:SandBox.xcodeproj",
-        "identifier" : "6102C319309487C900017434",
-        "name" : "SandBoxTests"
+        "containerPath" : "container:SandBox5.xcodeproj",
+        "identifier" : "6102C323309487C900017434",
+        "name" : "SandBox5UITests"
       }
     },
     {
-      "enabled" : false,
       "target" : {
-        "containerPath" : "container:SandBox.xcodeproj",
-        "identifier" : "6102C323309487C900017434",
-        "name" : "SandBoxUITests"
+        "containerPath" : "container:SandBox5.xcodeproj",
+        "identifier" : "6102C319309487C900017434",
+        "name" : "SandBox5Tests"
       }
     }
   ],
