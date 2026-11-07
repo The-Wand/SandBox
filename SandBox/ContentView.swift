@@ -61,7 +61,7 @@ struct ContentView: SwiftUI.View {
 
             //Experimental syntax
 //            let id = 42
-//            (id | GitHubAPI.Repo.get | CLLocation.one | CMMagnetometerData.one) | .all {
+//            (id | GitHubAPI.Repo.get | OpenWeatherMap_Weather.one | CMMagnetometerData.one) | .all {
 //                
 //                //How much times this will be called?
 //                
@@ -87,19 +87,30 @@ struct ContentView: SwiftUI.View {
 
 }
 
-
-extension Ask<Core> {
-    
-    @inline(__always)
-    public
-    static
-    var all: Ask<Core> {
-        //__unsafe_unretained
-        .Option(for: .all)
-    }
-    
-}
+//Option2
+//extension Ask {
+//    
+//    public
+//    nonisolated
+//    class Option2: Ask {
+//        
+//        public
+//        unowned
+//        var unowned_core: Core?
+//        
+//        @inline(__always)
+//        override
+//        public
+//        func set(core: Core?) -> Bool {
+//            unowned_core = core
+//            return check
+//        }
+//        
+//    }
+//    
+//}
 
 #Preview {
     ContentView()
 }
+
